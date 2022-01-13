@@ -35,8 +35,7 @@ end
 
 % function to get all images for a specific class
 function classImages = getThreeBandImages(num_images, block_size, class_name, folder)
-    class_folder = dir(sprintf('/home/matlab/Downloads/sub-cuboids_32x32/%s/%s', folder, class_name));    
-    %class_folder = dir(sprintf('/Users/DavideCremonini/DocumentiDavide/UniBZ_Master/FESR_Project_Thesis/hyperspectral-fungi/sub-cuboids_32x32/%s/%s',folder, class_name));
+    class_folder = dir(sprintf('data/%s/%s', folder, class_name));    
     class_data_indexes = find([class_folder.isdir] == 0);
     classImages = zeros(block_size, block_size, 337, num_images);
     
