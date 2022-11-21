@@ -1,5 +1,16 @@
 # hsi-framework
 
+
+
+The H2I framework was developed in the context of the H2I - Hyperspectral Images for Inspection Applications project. 
+The Hyperspectral Images for Inspection Applications (H2I) project is an EFRE/FESR funded project (FESR1111) coordinated by the Faculty of Computer Science of the Free University of Bozen-Bolzano and Microtec. 
+
+The H2I project aims at creating an hyperspectral image acquisition platform and a set of Deep Learning algorithms able to deal with hyperspectral images. 
+
+For more information please visit: https://h2i.inf.unibz.it/
+
+
+
 ## The goal
 
 Hyperspectral images consist of a multitude of spectral bands for each pixel. Spectral bands provide information about wavelengths, which may cover a larger spectrum of what a human eye may see. The classification task using hyperspectral images is usually addressed by taking into account only the spectral information, whereas the spatial information is ignored. To bridge this gap, this project proposes a CNN-based end-to-end framework for the classification of hyperspectral images. The proposed framework consists of a spatial and spectral classifier that are integrated to make the final prediction for the classification task. Each classifier is built by adapting a general image classifier, which is suitable for the classification of three-band images, to handle hyperspectral images. The framework is trained and validated on a real dataset—provided by a company working in the wood domain—for wood fungi detection. 
