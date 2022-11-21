@@ -1,5 +1,6 @@
 # hsi-framework
 
+![alt text](https://h2i.inf.unibz.it/img/fesr-logo.png)
 
 
 The H2I framework was developed in the context of the H2I - Hyperspectral Images for Inspection Applications project. 
